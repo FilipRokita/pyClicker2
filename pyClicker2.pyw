@@ -31,6 +31,7 @@ def prework():
 
 def work():
     while True:
+        root.update()
         if keyboard.is_pressed(start) == True:
             while True:
                 pyautogui.click()
